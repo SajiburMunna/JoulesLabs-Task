@@ -1,7 +1,7 @@
 // import { useEffect } from "react";
 // import { useDispatch, useSelector } from 'react-redux';
-
-import Navbar from "../componets/Navbar/Navbar";
+ 
+ 
 
  
 // import { getDataAction } from './redux/action';
@@ -17,7 +17,7 @@ export default function Home() {
   //  }, []);
   return (
     <div>
-       <Navbar></Navbar>
+      
     </div>
   );
 }
