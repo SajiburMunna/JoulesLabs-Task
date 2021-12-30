@@ -3,7 +3,7 @@ export const dataStoreSlice = createSlice({
   name: "store",
   initialState: {
     data: [],
-    searchData: "",
+     
     cartData: [],
     cartQty: 0,
   },
@@ -11,9 +11,7 @@ export const dataStoreSlice = createSlice({
     setData: (state, action) => {
       state.data = action.payload;
     },
-    searchData: (state, action) => {
-      state.searchData = action.payload;
-    },
+    
     cartData: (state, action) => {
       const existingIndex = state.cartData.findIndex(
         (item) => item.id === action.payload.id

@@ -8,9 +8,7 @@ export const getDataAction = () => (dispatch) => {
     .then((response) => dispatch(slice.setData(response.data)));
 };
 
-export const searchAction = (searchValue) => (dispatch) => {
-  dispatch(slice.searchData(searchValue));
-};
+ 
 export const  cartAction = (cart) => (dispatch) => {
   dispatch(slice.cartData(cart));
 };
