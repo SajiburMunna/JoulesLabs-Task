@@ -18,6 +18,11 @@ Login Page :
 ![image](https://user-images.githubusercontent.com/77797499/147766217-843710fb-86a1-4248-8724-29b57833cbd5.png)
 Profile Page :
 ![image](https://user-images.githubusercontent.com/77797499/147766322-37b5d2bd-7aa4-4eeb-b148-ce83edd209cf.png)
+Cart Page :
+![image](https://user-images.githubusercontent.com/77797499/147766980-81e4bdd3-f00b-4b36-b47c-1b89726a4bec.png)
+Checkout with Stripe :
+![image](https://user-images.githubusercontent.com/77797499/147767141-1cbed3d8-c45a-4463-b7de-03ebf8612197.png)
+
 
 ## How To Run
 1.At first clone the project. </br>
