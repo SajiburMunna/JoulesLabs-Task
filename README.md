@@ -1,6 +1,6 @@
 ## JoulesLabs-Task Application
 
-In this application,users will be able to view the home page,shop page,blog page.Also user can add to cart and checkout.
+In this application, users will be able to view the home page, shop page, blog page. Also, users can add to the cart and checkout.
 ## Requeirements:
 1. Have to integrate social authentication (like Google, facebook etc.).(Done)</br>
 2. After login, keep the user data in state and show it in the user Profile page.(Done)</br>
