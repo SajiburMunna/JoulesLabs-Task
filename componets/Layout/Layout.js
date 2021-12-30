@@ -1,3 +1,4 @@
+import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import useDarkMode from './../hook/useDarkMode';
 
@@ -8,6 +9,7 @@ const Layout = ({ children }) => {
       <div className="dark:text-white">
         <Navbar></Navbar>
         <main>{children}</main>
+        <Footer></Footer>
       </div>
     </div>
   );

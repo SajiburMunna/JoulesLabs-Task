@@ -3,12 +3,17 @@ import useDarkMode from "./../hook/useDarkMode";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { cartAction } from "../../pages/redux/action";
+import { useRouter } from "next/router";
  cartAction
 
 const Navbar = () => {
   const [colorTheme, setTheme] = useDarkMode();
    const Data = useSelector((state) => state.Alldata);
    const cartno = Data.cartData;
+   const router = useRouter();
+   const hadelclick = () => {
+     router.replace("/checkout");
+   };
     
   return (
     <div>
@@ -38,7 +43,10 @@ const Navbar = () => {
             </Link>
           </div>
           <div>
-            <span className="w-20 h-20 bg-indigo-500 rounded-full p-2    mr-5   cursor-pointer  text-center ">
+            <span
+              onClick={hadelclick}
+              className="w-20 h-20 bg-indigo-500 rounded-full p-2    mr-5   cursor-pointer  text-center "
+            >
               <svg
                 className="w-6 h-6  inline-block "
                 fill="none"

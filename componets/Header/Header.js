@@ -12,7 +12,7 @@ const Header = () => {
             photography.Read,write and discuss with me
           </p>
           <div className="mb-10 mt-3 flex">
-            <div  >
+            <div>
               <div class=" xl:w-96">
                 <input
                   type="text"
@@ -46,7 +46,7 @@ const Header = () => {
           </div>
         </div>
         <div>
-           <img src="/profile.png" alt="" />
+          <img src="/profile.png" alt="" />
         </div>
       </div>
     </div>

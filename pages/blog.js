@@ -12,7 +12,7 @@ const Blog = () => {
   return (
     <div>
       <h1 className="text-center text-xl font-medium ">Blogs</h1>
-      <div className="flex flex-wrap  text-center p-10 ml-40 items-center">
+      <div className="flex flex-wrap  text-center p-10 ml-32 items-center">
         {Data.data.map((bg) => (
           <div class="p-6 w-64  h-40  mb-5 mr-5 bg-white rounded-xl shadow-lg   ">
             <div>

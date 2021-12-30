@@ -70,7 +70,7 @@ const Shop = () => {
   return (
     <div>
       <h1 className="text-center text-xl font-medium ">Shops</h1>
-      <div className="flex flex-wrap  text-center p-10 ml-40 items-center">
+      <div className="flex flex-wrap  text-center p-10 ml-32 items-center">
         {products.map((bg) => (
           <div class="p-6 w-64  h-64  mb-5 mr-5 bg-white rounded-xl shadow-lg   ">
             <div>
