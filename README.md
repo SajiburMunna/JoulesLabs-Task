@@ -1,40 +1,33 @@
-## NEXT Js Tutorials
+## JoulesLabs-Task Application
 
-> Author: App City
+In this application,users will be able to view the home page,shop page,blog page.Also user can add to cart and checkout.
 
-_Visit [App City](https://app-city.co), for your next Digital Adventure of Web Applications and Mobile Applications._
+## Tools :
+1.Next js </br>
+2.Tailwind css </br>
+3.Redux-toolkit </br>
+4.Api("https://jsonplaceholder.typicode.com/")
+## ScreenShoots:
+Home page :
+![image](https://user-images.githubusercontent.com/77797499/147765981-0a3190ae-cb7a-4a12-b9a6-32e7083644fc.png)
+Blog Page :
+![image](https://user-images.githubusercontent.com/77797499/147766075-3d5b39ff-6ff9-46cc-a608-3478c89bd96a.png)
+Shop Page :
+![image](https://user-images.githubusercontent.com/77797499/147766137-fc472277-ad14-4364-adee-7dde463284c4.png)
+Login Page :
+![image](https://user-images.githubusercontent.com/77797499/147766217-843710fb-86a1-4248-8724-29b57833cbd5.png)
+Profile Page :
+![image](https://user-images.githubusercontent.com/77797499/147766322-37b5d2bd-7aa4-4eeb-b148-ce83edd209cf.png)
+Cart Page :
+![image](https://user-images.githubusercontent.com/77797499/147766980-81e4bdd3-f00b-4b36-b47c-1b89726a4bec.png)
+Checkout with Stripe :
+![image](https://user-images.githubusercontent.com/77797499/147767141-1cbed3d8-c45a-4463-b7de-03ebf8612197.png)
 
-## Installation
 
-NEXT Js Tutorials requires [Node.js](https://nodejs.org/) or [Yarn](https://yarnpkg.com/) to run.
+## How To Run
+1.At first clone the project. </br>
+2.Run yarn or npm install to install all the dependencies. </br>
+3.Once installed,   npm run dev.</br>
+4.The project will run by default on 3000 port.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-## Getting Started
-
-This project is created for educational purposes. Learn Next Js from scratch with step by step guides on each commits made to this project.
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-###### - App City @2021
+ 
