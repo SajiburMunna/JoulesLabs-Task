@@ -1,6 +1,13 @@
 ## JoulesLabs-Task Application
 
 In this application,users will be able to view the home page,shop page,blog page.Also user can add to cart and checkout.
+## Requeirements:
+1. Have to integrate social authentication (like Google, facebook etc.).(Done)</br>
+2. After login, keep the user data in state and show it in the user Profile page.(Done)</br>
+3. Design the home page. See Attachment-1 and  Attachment-2.(Done)</br>
+4. Design a Blog page for showing some blog posts.(Done)</br>
+5. Design the Single Post Page.(Done)</br>
+6. A Simple shop page with few product cards, should have the option to "Add to Cart" and checkout using Stripe payment. (So you have to integrate Stripe payment).(Done)
 
 ## Tools :
 1.Next js </br>
@@ -9,7 +16,10 @@ In this application,users will be able to view the home page,shop page,blog page
 4.Api("https://jsonplaceholder.typicode.com/")
 ## ScreenShoots:
 Home page :
-![image](https://user-images.githubusercontent.com/77797499/147765981-0a3190ae-cb7a-4a12-b9a6-32e7083644fc.png)
+Dark:![darkhomepage](https://user-images.githubusercontent.com/77797499/147784207-672fecd4-6f09-4c6c-ad96-a50461d07fae.png)
+Light:![light](https://user-images.githubusercontent.com/77797499/147784227-e31c2b7e-b5e3-4909-9c0a-12755522e89e.png)
+Footer:![footer](https://user-images.githubusercontent.com/77797499/147784400-dc347e3a-44bb-48b6-9a6d-c78d2da9dcf3.png)
+
 Blog Page :
 ![image](https://user-images.githubusercontent.com/77797499/147766075-3d5b39ff-6ff9-46cc-a608-3478c89bd96a.png)
 Shop Page :
@@ -21,7 +31,8 @@ Profile Page :
 Cart Page :
 ![image](https://user-images.githubusercontent.com/77797499/147766980-81e4bdd3-f00b-4b36-b47c-1b89726a4bec.png)
 Checkout with Stripe :
-![image](https://user-images.githubusercontent.com/77797499/147767141-1cbed3d8-c45a-4463-b7de-03ebf8612197.png)
+ ![checkout](https://user-images.githubusercontent.com/77797499/147784550-390e1c43-a31e-473d-97db-3ce8b0fbd9cf.png)
+
 
 
 ## How To Run
