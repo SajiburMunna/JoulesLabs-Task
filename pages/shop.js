@@ -11,60 +11,70 @@ const Shop = () => {
       name: "Book",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 2,
       name: "Book1",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 3,
       name: "Book2",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 4,
       name: "Book3",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 5,
       name: "Book5",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 6,
       name: "Book6",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 7,
       name: "Book8",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 8,
       name: "Book9",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 9,
       name: "Book10",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
     {
       id: 10,
       name: "Book11",
       description:
         "Libero quasi, suscipit modi error alias cupiditate officiis laboriosam optio, blanditiis est ipsa odio voluptate vitae",
+      price: 100,
     },
   ];
   return (
@@ -76,7 +86,13 @@ const Shop = () => {
             <div>
               <div class="text-xl font-medium text-black">{bg.name}</div>
               <p class="text-gray-500"> {bg.description}</p>
-              <button onClick={()=>dispatch(cartAction(bg))} className="text-black bg-red-200 p-2">Add to Cart</button>
+              <p class="text-gray-500">Price:{bg.price}Tk</p>
+              <button
+                onClick={() => dispatch(cartAction(bg))}
+                className="text-black bg-indigo-500 p-2"
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
         ))}

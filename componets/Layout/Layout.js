@@ -9,7 +9,9 @@ const Layout = ({ children }) => {
       <div className="dark:text-white">
         <Navbar></Navbar>
         <main>{children}</main>
-        <Footer></Footer>
+        <div className="mt-80">
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );
