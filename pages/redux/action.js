@@ -11,3 +11,6 @@ export const getDataAction = () => (dispatch) => {
 export const searchAction = (searchValue) => (dispatch) => {
   dispatch(slice.searchData(searchValue));
 };
+export const  cartAction = (cart) => (dispatch) => {
+  dispatch(slice.cartData(cart));
+};

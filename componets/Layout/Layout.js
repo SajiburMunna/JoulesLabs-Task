@@ -1,14 +1,16 @@
 import Navbar from "../Navbar/Navbar";
-
- 
+import useDarkMode from './../hook/useDarkMode';
 
 const Layout = ({ children }) => {
+ 
   return (
-    <div>
+    <div className="dark:bg-black">
+      <div className="dark:text-white">
         <Navbar></Navbar>
-      <main>{children}</main>
+        <main>{children}</main>
+      </div>
     </div>
   );
 };
 
-export default Layout
+export default Layout;
