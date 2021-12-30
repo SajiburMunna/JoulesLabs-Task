@@ -1,11 +1,13 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getDataAction, cartAction } from "./redux/action";
+import Link from "next/link";
+ 
 
 const Blog = () => {
   const dispatch = useDispatch();
   const Data = useSelector((state) => state.Alldata);
-  console.log(Data.data);
+   
   useEffect(() => {
     dispatch(getDataAction());
   }, []);
@@ -19,6 +21,7 @@ const Blog = () => {
               <div class="text-xl font-medium text-black">Blog No: {bg.id}</div>
               <p class="text-gray-500">Blog Name: {bg.title}</p>
             </div>
+             
           </div>
         ))}
       </div>
