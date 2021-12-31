@@ -9,7 +9,7 @@ In this application, users will be able to view the home page, shop page, blog p
 5. Design the Single Post Page.(Done)</br>
 6. A Simple shop page with few product cards, should have the option to "Add to Cart" and checkout using Stripe payment. (So you have to integrate Stripe payment).(Done)
 
-## Tools :
+## Technologies:
 1.Next js </br>
 2.Tailwind css </br>
 3.Redux-toolkit </br>
